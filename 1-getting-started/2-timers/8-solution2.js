@@ -1,4 +1,5 @@
 let counter = 0;
+
 const intervalId = setInterval(() => {
   console.log('Hello World');
   counter += 1;
@@ -8,3 +9,10 @@ const intervalId = setInterval(() => {
     clearInterval(intervalId);
   }
 }, 1000);
+
+// setTimeout( () => {
+//     for (var count = 0; count <= 5; count++) {
+//         console.log('Hello World');
+//     }
+//     console.log('done');
+// }, 1000);
